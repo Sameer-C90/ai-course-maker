@@ -18,7 +18,7 @@ This project generates a structured course of 5 modules that is stylized in acco
 ## Installation/Local Setup
 
 ```bash
-git clone 
+git clone https://github.com/Sameer-C90/ai-course-maker.git
 cd ai-course-maker
 cd server
 npm install

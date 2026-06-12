@@ -25,7 +25,7 @@ app.get('/', (req, res)=>{
 app.use('/api/v1/auth', authRouter)
 app.use('/api/v1/course', authenticateUser, courseRouter)
 
-const port = process.env.port || 5000
+const port = process.env.PORT || 5000
 
 const start = async () => {
   try {
